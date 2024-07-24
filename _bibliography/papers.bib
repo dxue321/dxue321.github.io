@@ -1,141 +1,154 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% Conferences
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
+@STRING(AAAI     = "Conference on Artificial Intelligence (AAAI)")
+@STRING(BMVC     = "British Machine Vision Conference (BMVC)")
+@STRING(CoRL     = "Conference on Robot Learning (CoRL)")
+@STRING(CVPR     = "International Conference on Computer Vision and Pattern Recognition (CVPR)")
+@STRING(CVPRW    = "International Conference on Computer Vision and Pattern Recognition Workshop (CVPRW)")
+@STRING(DAGM     = "DAGM: Joint Pattern Recognition Symposium")
+@STRING(ECCV     = "European Conference on Computer Vision (ECCV)")
+@STRING(ECCVW    = "European Conference on Computer Vision Workshop (ECCVW)")
+@STRING(FUSION   = "International Conference on Information Fusion (FUSION)")
+@STRING(GCPR     = "German Conference on Pattern Recognition (GCPR)")
+@STRING(ICCV     = "International Conference on Computer Vision (ICCV)")
+@STRING(ICCVW    = "International Conference on Computer Vision Workshop (ICCVW)")
+@STRING(ICCL     = "International Conference on Computational Linguistics (ICCL)")
+@STRING(ICHR     = "International Conference on Humanoid Robots (HUMANOIDS)")
+@STRING(ICIP     = "International Conference on Image Processing (ICIP)")
+@STRING(ICLR     = "International Conference on Learning Representation (ICLR)")
+@STRING(ICML     = "International Conference on Machine Learning (ICML)")
+@STRING(ICPR     = "International Conference on Pattern Recognition (ICPR)")
+@STRING(ICRA     = "International Conference on Robotics and Automation (ICRA)")
+@STRING(IROS     = "International Conference on Intelligent Robots and Systems (IROS)")
+@STRING(ITSC     = "Intelligent Transportation Systems Conference (ITSC)")
+@STRING(IV       = "Intelligent Vehicles Symposium (IV)")
+@STRING(NIPS     = "Advances in Neural Information Processing Systems (NIPS)")
+@STRING(NIPSW     = "Advances in Neural Information Processing Systems Workshop")
+@STRING(NeurIPS  = "Conference on Neural Information Processing Systems (NeurIPS)")
+@STRING(WACV     = "Winter Conference on Applications of Computer Vision (WACV)")
+@STRING(RSS      = "Robotics: Science and Systems (RSS)")
+@STRING(SSRR     = "Safety, Security and Rescue Robotics (SSRR)")
+@STRING(SCIA     = "Scandinavian Conference on Image Analysis (SCIA)")
+@STRING(AISTATS  = "International Conference on Artificial Intelligence and Statistics (AISTATS)")
+@STRING(IRC      = "International Conference on Robotic Computing (IRC)")
+@STRING(IJCAI    = "International Joint Conference on Artificial Intelligence (IJCAI)")
+@STRING(ICLR     = "International Conference on Learning Representations (ICLR)")
+@STRING(MICCAI   = "Medical Image Computing and Computer-Assisted Intervention (MICCAI)")
+@STRING(ICASSP   = "{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)")
+@STRING(ACMMM    = "{ACM} International Conference on Multimedia (ACMMM)")"
 
-@book{einstein1956investigations,
+
+
+% Journals
+@STRING(IEEE-SPL    = "{IEEE} Signal Processing Letters")
+@STRING(APPSCN      = "Applied Sciences")
+@STRING(IEEE-T-MI   = "{IEEE} Transactions on Medical Imaging")
+@STRING(IEEE-T-Cyb  = "{IEEE} Transactions on Cybernetics")
+@STRING(IEEE-T-NNLS = "{IEEE} Transactions on Neural Networks and Learning Systems")
+@STRING(IEEE-T-PAMI = "{IEEE} Transactions on Pattern Recognition and Machine Analyses")
+@STRING(IEEE-T-IP   = "{IEEE} Transactions on Image Processing")
+@STRING(IEEE-T-ITS  = "{IEEE} Transactions on Intelligent Transportation Systems")
+@STRING(IEEE-T-IV   = "{IEEE} Transactions on Intelligent Vehicles")
+@STRING(IEEE-T-VCG  = "{IEEE} IEEE Transactions on Visualization and Computer Graphics")
+@STRING(IEEE-T-MM   = "{IEEE} Transactions on Multimedia")
+@STRING(IEEE-A      = "{IEEE} Access")
+@STRING(IJRR        = "International Journal of Robotics Research (IJRR)")
+@STRING(IVC         = "Image and Vision Computing (IV)")
+@STRING(NeCo        = "Neural Computation")
+@STRING(PR          = "Pattern Recognition")
+@STRING(PRL         = "Pattern Recognition Letters")
+@STRING(RAS         = "Robotics and Autonomous Systems")
+@STRING(Sensors     = "Sensors")
+@STRING(TR-A        = "Transportation Research Part A: Policy and Practice")
+@STRING(FTCGV       = "Foundations and Trends in Computer Graphics and Vision")
+@STRING(JFR         = "Journal of Field Robotics")
+@STRING(IJCV        = "International Journal of Computer Vision")
+@STRING(CGF         = "Computer Graphics Forum")
+@STRING(TOG         = "ACM Transactions on Graphics (ToG)")
+
+
+
+
+@article{xue2024palette,
+  title={Palette-based Color Harmonization via Color Naming},
+  author={Xue, Danna and Vazquez-Corral, Javier and Herranz, Luis and Zhang, Yanning and Brown, Michael S},
+  journal=IEEE-SPL,
+  year={2024},
+  publisher={IEEE},
+  abbr={IEEE-SPL},
+  code={https://github.com/dxue321/palette-based-color-harmonization},
+  html={https://ieeexplore.ieee.org/document/10530999},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true}
 }
 
-@article{PhysRev666,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+
+@inproceedings{xue2023integrating,
+  title={Integrating high-level features for consistent palette-based multi-image recoloring},
+  author={Xue, Danna and Corral, J Vazquez and Herranz, Luis and Zhang, Yanning and Brown, Michael S},
+  booktitle=CGF,
+  pages={e14964},
+  year={2023},
+  organization={Wiley Online Library},
+  abbr={CGF},
+  html={https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14964},
+  bibtex_show={true},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{xue2023burst,
+  title={Burst perception-distortion tradeoff: analysis and evaluation},
+  author={Xue, Danna and Herranz, Luis and Corral, Javier Vazquez and Zhang, Yanning},
+  booktitle=ICASSP,
+  pages={1--5},
+  year={2023},
+  organization={IEEE},
+  abbr={ICASSP 2023},
+  html={https://ieeexplore.ieee.org/document/10096218},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
+
+@inproceedings{xue2022slimseg,
+  title={Slimseg: Slimmable semantic segmentation with boundary supervision},
+  author={Xue, Danna and Yang, Fei and Wang, Pei and Herranz, Luis and Sun, Jinqiu and Zhu, Yu and Zhang, Yanning},
+  booktitle=ACMMM,
+  pages={6539--6548},
+  year={2022},
   preview={wave-mechanics.gif},
-  abbr={Vision}
+  html={https://dl.acm.org/doi/abs/10.1145/3503161.3548191},
+  pdf={https://arxiv.org/pdf/2207.06242},
+  bibtex_show={true},
+  abbr={ACMMM 2022},
+  abstract={Accurate semantic segmentation models typically require significant computational resources, inhibiting their use in practical applications. Recent works rely on well-crafted lightweight models to achieve fast inference. However, these models cannot flexibly adapt to varying accuracy and efficiency requirements. In this paper, we propose a simple but effective slimmable semantic segmentation (SlimSeg) method, which can be executed at different capacities during inference depending on the desired accuracy-efficiency tradeoff. More specifically, we employ parametrized channel slimming by stepwise downward knowledge distillation during training. Motivated by the observation that the differences between segmentation results of each submodel are mainly near the semantic borders, we introduce an additional boundary guided semantic segmentation loss to further improve the performance of each submodel. We show that our proposed SlimSeg with various mainstream networks can produce flexible models that provide dynamic adjustment of computational cost and better performance than independent models. Extensive experiments on semantic segmentation benchmarks, Cityscapes and CamVid, demonstrate the generalization ability of our framework.},
+  video={https://dl.acm.org/doi/suppl/10.1145/3503161.3548191/suppl_file/MM22-fp1843.mp4},
+  selected={true}
+}
+
+
+@article{li2023learning,
+  title={Learning depth via leveraging semantics: Self-supervised monocular depth estimation with both implicit and explicit semantic guidance},
+  author={Li, Rui and Xue, Danna and Su, Shaolin and He, Xiantuo and Mao, Qing and Zhu, Yu and Sun, Jinqiu and Zhang, Yanning},
+  journal=PR,
+  volume={137},
+  pages={109297},
+  year={2023},
+  publisher={Elsevier},
+  abbr={PR},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0031320322007762}
+}
+
+
+@article{wang2023take,
+  title={Take a prior from other tasks for severe blur removal},
+  author={Wang, Pei and Zhu, Yu and Xue, Danna and Yan, Qingsen and Sun, Jinqiu and Yoon, Sung-eui and Zhang, Yanning},
+  journal={Computer Vision and Image Understanding},
+  pages={104027},
+  year={2024},
+  publisher={Elsevier}
 }
