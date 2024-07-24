@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Ph.D. Student at Computer Vision Center, Universitat Autònoma de Barcelona, Sapin, and Northwestern Polytechnical University, China.
+# subtitle: Ph.D. Student at Computer Vision Center, Universitat Autònoma de Barcelona, Sapin, and Northwestern Polytechnical University, China.
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>Barcelona, Spain</p>
+  # more_info: >
+  #   <p>Barcelona, Spain</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
