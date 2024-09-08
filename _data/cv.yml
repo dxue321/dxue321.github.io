@@ -7,7 +7,6 @@
     #   value: 14th March 1879
     - name: Languages
       value: Mandarin, English
-
 - title: Education
   type: time_table
   contents:
@@ -17,18 +16,14 @@
       description:
         - Under joint supervision of \href{https://scholar.google.com/citations?user=-wzlS7QAAAAJ&hl=zh-CN}{\textit{ \textcolor{black}{\textbf{Prof. Yanning Zhang}}}}, \href{https://scholar.google.com/citations?user=gjnuPMoAAAAJ&hl=en}{\textit{\textcolor{black}{\textbf{Assoc. Prof. Javier Vazquez-Corral}}}}, and  \href{https://scholar.google.com/citations?user=TIUdKu4AAAAJ&hl=en}{\textit{\textcolor{black}{\textbf{Dr. Luis Herranz}}}}
         - Passed with Cum Laude Mention and supported by CSC scholarship
-
     - title: M.Phil. in Guidance, Navigation and Control
       institution: Northwestern Polytechnical University, Xi'an, China
       year: Sep 2015 - Apr 2018
       description:
         - Specialised in Control thoery and Image processing
-
     - title: B.Eng. in Detection, Guidance, and Control Technology
       institution: Northwestern Polytechnical University, Xi'an, China
       year: Sep 2011 - Jul 2015
-
-
 - title: Experience
   type: time_table
   contents:
@@ -37,8 +32,6 @@
       year: July, 2024 - present
       description:
         - High-fidelity color gamut mapping
-
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -49,7 +42,6 @@
     - year: 2029
       items:
         - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -65,7 +57,6 @@
         - Gamut mapping
         - Color editing
     - title: Domain Adaptation
-
 - title: Other Interests
   type: list
   contents:
