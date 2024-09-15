@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-7-11 20:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Passed my thesis Defense :smile:! Dobby is a free Elf! (only for this weekend...)

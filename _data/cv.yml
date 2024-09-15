@@ -31,7 +31,7 @@
       institution: Computer Vision Center, Barcelona, Spain
       year: July, 2024 - present
       description:
-        - High-fidelity color gamut mapping
+        - High-fidelity color gamut mapping in smartphone ISP
 - title: Academic Interests
   type: nested_list
   contents:
